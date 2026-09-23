@@ -1,3 +1,25 @@
+# Git tutorial
+
+The first step to using Git is to download and install from the official website.   
+You can create a repository using the command "git init"
+From there you can start adding and coding files like normal. Once you are finished, you need to add them to git.  
+Git status shows you which files have been changed.  
+Git add \[file] will add the files you want to be committed.  
+Git commit -m "A commit message" will be what saves those changes.  
+Git push origin "branch-name" will copy your commits made on local to your remote repository.  
+Git pull origin "branch-name" will copy your commits made on remote to your local repository. 
+
+
+# Github Tutorial
+Github is a website to externally host your repositories.  
+To connect your local repository to your Github, you can use the command "git remote add origin (your project's github url)"  
+When you view your project on github, you can see all the files and directories there. Clicking on one allows you to see its history. There is also a button that lets you switch which branch you're viewing.  
+Github allows you to merge branches through the "Pull Requests" tab.
+
+
+
+# Definitions
+
 **Branch** - A branch is a unique version of the project's codebase. A branch can have files added, removed, or modified without affecting another branch.  
 
 **Clone** -A copy of a repository into a new directory
@@ -23,5 +45,5 @@
 **Repository** - A repository is where all the files and branches of your project are.  
 
 
-
-A02
+# References
+[https://www.geeksforgeeks.org/git/what-is-git/](url)
